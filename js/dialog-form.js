@@ -49,5 +49,5 @@ $(function () {
     }
   }); // end dialog
   $("#myaccordion").accordion();
-  $("#mytabs").tabs();
+  $("#mytabs").tabs({collapsible:true}); //collapsible true I added is a JS makes the tab collapse when clicked again. 
 }); // end ready
